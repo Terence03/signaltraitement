@@ -1,0 +1,225 @@
+nav
+{
+    width: 740px;
+    text-align: right;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    
+}
+nav li
+{
+display: inline-block;
+margin-right: 60px;
+padding: 10px 20px;
+/*transform: scale(1.2);*/
+transition: padding 0.2s ease-in-out;
+background-color: #5cd8e463;
+color: rgb(171, 172, 182);
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+border-radius: 5px;
+}
+nav li:hover
+{
+    padding: 15px 30px;  
+}
+a{
+    text-decoration: none;
+}
+header
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+   
+}
+header h1
+{
+    font-size: 50px;
+}
+body {
+background-image: url("fond2.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-color: rgba(244, 224, 224, 0.1);
+}
+.grider{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grider div{
+    min-height: 200px;
+    border-radius: 15px;
+    background: rgb(237, 232, 232);
+    margin: 4px;
+}
+.grider div:nth-child(1)
+{
+    background-image: url("fond4.jpg");
+  background-size: cover;
+  background-position: center center;
+  animation-name: scroll-background;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.grider div:nth-child(2)
+{
+    background-image: url("logo.jpg");
+  background-size: cover;
+  background-position: center center;
+  animation-name: scroll-background3;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+
+.grider div:nth-child(3)
+{
+    
+  background-image: url("hhh.png");
+  background-size: cover;
+  background-position: center center;
+  animation-name: scroll-background2;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.grider div:nth-child(4)
+{
+    background-image: url("images\ \(1\).png");
+    background-size: cover;
+    background-position: center center;
+    animation-name: scroll-background4;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  .grider div:nth-child(5) 
+  {
+
+    background-image: url("images\ \(1\).png");
+    background-size: cover;
+    background-position: center center;
+    animation-name: scroll-background4;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  .grider div:nth-child(6)
+{
+    background-image: url("hhh.png");
+  background-size: cover;
+  background-position: center center;
+  animation-name: scroll-background2;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.grider div:nth-child(7)
+{
+    background-image: url("fond4.jpg");
+  background-size: cover;
+  background-position: center center;
+  animation-name: scroll-background;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.grider div:nth-child(8)
+{
+    background-image: url("logo.jpg");
+  background-size: cover;
+  background-position: center center;
+  animation-name: scroll-background3;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scroll-background {
+    0% {
+        background-image: url('fond4.jpg');
+      }
+      50% {
+        background-image: url('fond5.jpg');
+      }
+      100% {
+        background-image: url('fond4.jpg');
+      }
+  }
+  
+@keyframes scroll-background2 {
+    0% {
+        background-image: url('hhh.png');
+      }
+      50% {
+        background-image: url('multiplex.gif');
+      }
+      100% {
+        background-image: url('hhh.png');
+      }
+    }
+    @keyframes scroll-background3 {
+        0% {
+            background-image: url('logo.jpg');
+          }
+          50% {
+            background-image: url('fond1.jpg');
+          }
+          100% {
+            background-image: url('logo.jpg');
+          }
+      }
+  
+      @keyframes scroll-background4 {
+        0% {
+            background-image: url('images\ \(1\).png');
+          }
+          50% {
+            background-image: url('BattementsSonDifferentiel.jpg');
+          }
+          100% {
+            background-image: url('images\ \(1\).png');
+          }
+      }
+footer
+{
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+#footer  img
+{
+border: 1px solid #181818;
+margin-right: 2px;
+}
+
+footer div
+{
+    display: inline-block;
+    margin-right: 100px;  
+}
+footer section
+{
+    display:inline;
+    text-align: center;
+    
+
+}
+
+footer p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
